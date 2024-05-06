@@ -1,0 +1,7 @@
+type: 'import_session_from_dandi'
+params:
+  nwb_file_id: w000001
+  dandiset_id: 000629
+  dandiset_version: draft
+  nwb_file_path: sub-bernard/sub-bernard_ses-bernard-02_behavior+ecephys.nwb
+  nwb_file_url: https://api.dandiarchive.org/api/assets/efe22650-8f8b-48ac-85c8-2d5a42c00744/download/
