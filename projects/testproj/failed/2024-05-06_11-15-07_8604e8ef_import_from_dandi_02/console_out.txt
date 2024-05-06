@@ -1,0 +1,2 @@
+[2024-05-06 11:15:10,694][INFO]: Connecting admin@spyglass-arc-dev.c3asucugepee.us-east-1.rds.amazonaws.com:3306
+[2024-05-06 11:15:10,984][INFO]: Connected admin@spyglass-arc-dev.c3asucugepee.us-east-1.rds.amazonaws.com:3306

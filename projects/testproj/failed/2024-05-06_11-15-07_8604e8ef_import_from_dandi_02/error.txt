@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/magland/src/arc-engine/engine.py", line 44, in _handle_submitted_job
+    _run_job(project_name=project_name, job_id=submitted_job_id)
+  File "/home/magland/src/arc-engine/engine.py", line 64, in _run_job
+    execute_job(job_type=job_type, job_params=job_params)
+  File "/home/magland/src/arc-engine/execute_job.py", line 12, in execute_job
+    import_session_from_dandi(
+  File "/home/magland/src/arc-engine/import_session_from_dandi.py", line 29, in import_session_from_dandi
+    lindi_file_url = _create_lindi_file(hdf5_url=nwb_file_url)
+  File "/home/magland/src/arc-engine/import_session_from_dandi.py", line 47, in _create_lindi_file
+    f.write_lindi_file(tmp_lindi_fname)
+  File "/home/magland/src/lindi/lindi/LindiH5pyFile/LindiH5pyFile.py", line 295, in write_lindi_file
+    raise Exception("Filename must end with '.lindi.json'")
+Exception: Filename must end with '.lindi.json'
