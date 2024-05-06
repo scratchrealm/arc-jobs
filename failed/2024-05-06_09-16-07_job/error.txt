@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/magland/src/arc-engine/engine.py", line 41, in _handle_submitted_job
+    _run_job(submitted_job_id)
+  File "/home/magland/src/arc-engine/engine.py", line 58, in _run_job
+    job_type = job['type']
+KeyError: 'type'
