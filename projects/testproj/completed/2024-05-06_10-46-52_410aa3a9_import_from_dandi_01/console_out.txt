@@ -1,0 +1,132 @@
+[2024-05-06 10:46:54,794][INFO]: Connecting admin@spyglass-arc-dev.c3asucugepee.us-east-1.rds.amazonaws.com:3306
+[2024-05-06 10:46:55,098][INFO]: Connected admin@spyglass-arc-dev.c3asucugepee.us-east-1.rds.amazonaws.com:3306
+/home/magland/miniconda3/envs/dev/lib/python3.9/site-packages/datajoint/external.py:276: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if check_hash:
+[10:47:03][INFO] Spyglass: Populating Session...
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'hdmf-common' version 1.5.1 because version 1.8.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'core' version 2.4.0 because version 2.7.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'hdmf-experimental' version 0.2.0 because version 0.5.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_0' has data shape (56374, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_1' has data shape (79658, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_2' has data shape (58386, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_3' has data shape (43919, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_4' has data shape (54739, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+[10:47:04][INFO] Spyglass: No config found at file path /home/magland/spyglass-arc-dev/raw/w000001_spyglass_config.yaml
+[10:47:04][INFO] Spyglass: Institution...
+[10:47:04][INFO] Spyglass: Lab...
+[10:47:04][INFO] Spyglass: LabMember...
+/home/magland/src/spyglass-fork/src/spyglass/common/common_lab.py:199: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if not query:
+[10:47:04][INFO] Spyglass: Please add the Google user ID for Anna Gillespie in LabMember.LabMemberInfo to help manage permissions.
+[10:47:05][INFO] Spyglass: Subject...
+[10:47:05][INFO] Spyglass: Populate DataAcquisitionDevice...
+[10:47:05][INFO] Spyglass: Inserted or referenced data acquisition device(s): dict_keys(['dataacq_device0'])
+[10:47:05][INFO] Spyglass: Populate CameraDevice...
+[10:47:05][INFO] Spyglass: Inserted camera devices ['run camera', 'sleep camera']
+[10:47:05][INFO] Spyglass: Populate Probe...
+[10:47:05][INFO] Spyglass: Probe ID 'tetrode_12.5' already exists in the database. Spyglass will use that and not create a new Probe, Shanks, or Electrodes.
+[10:47:05][INFO] Spyglass: Inserted probes {'tetrode_12.5'}
+[10:47:06][INFO] Spyglass: Skipping Apparatus for now...
+[10:47:06][INFO] Spyglass: IntervalList...
+/home/magland/src/spyglass-fork/src/spyglass/common/common_session.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+[10:47:06][WARNING] Spyglass: LabMember with name Gillespie, Anna does not exist. Cannot link Session with LabMember in Session.Experimenter.
+[10:47:06][INFO] Spyglass: Populating ElectrodeGroup...
+[10:47:09][INFO] Spyglass: Populating Electrode...
+[10:47:09][INFO] Spyglass: No config found at file path /home/magland/spyglass-arc-dev/raw/w000001_spyglass_config.yaml
+[10:47:22][INFO] Spyglass: Populating Raw...
+[10:47:22][INFO] Spyglass: Estimating sampling rate...
+[10:47:23][INFO] Spyglass: Estimated sampling rate for file: 30000.0 Hz
+[10:47:28][INFO] Spyglass: Importing raw data: Sampling rate:	30000.0 Hz
+[10:47:28][INFO] Spyglass: Number of valid intervals:	5
+[10:47:28][INFO] Spyglass: Populating SampleCount...
+[10:47:29][INFO] Spyglass: Populating DIOEvents...
+[10:47:30][INFO] Spyglass: Populating RawPosition...
+[10:47:30][INFO] Spyglass: Populating TaskEpoch...
+[10:47:31][INFO] Spyglass: Populating StateScriptFile...
+[10:47:31][INFO] Spyglass: statescript log r1
+[10:47:31][INFO] Spyglass: statescript log r2
+[10:47:31][INFO] Spyglass: statescript log s1
+[10:47:31][INFO] Spyglass: statescript log s2
+[10:47:31][INFO] Spyglass: statescript log s3
+[10:47:31][INFO] Spyglass: statescript log r1
+[10:47:31][INFO] Spyglass: statescript log r2
+[10:47:31][INFO] Spyglass: statescript log s1
+[10:47:31][INFO] Spyglass: statescript log s2
+[10:47:31][INFO] Spyglass: statescript log s3
+[10:47:31][INFO] Spyglass: statescript log r1
+[10:47:31][INFO] Spyglass: statescript log r2
+[10:47:31][INFO] Spyglass: statescript log s1
+[10:47:31][INFO] Spyglass: statescript log s2
+[10:47:31][INFO] Spyglass: statescript log s3
+[10:47:32][INFO] Spyglass: statescript log r1
+[10:47:32][INFO] Spyglass: statescript log r2
+[10:47:32][INFO] Spyglass: statescript log s1
+[10:47:32][INFO] Spyglass: statescript log s2
+[10:47:32][INFO] Spyglass: statescript log s3
+[10:47:32][INFO] Spyglass: statescript log r1
+[10:47:32][INFO] Spyglass: statescript log r2
+[10:47:32][INFO] Spyglass: statescript log s1
+[10:47:32][INFO] Spyglass: statescript log s2
+[10:47:32][INFO] Spyglass: statescript log s3
+[10:47:32][INFO] Spyglass: Populating VideoFile...
+/home/magland/src/spyglass-fork/src/spyglass/common/common_behav.py:383: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(f"No video data interface found in {nwb_file_name}\n")
+[10:47:32][WARNING] Spyglass: No video data interface found in w000001_.nwb.lindi.json
+
+/home/magland/src/spyglass-fork/src/spyglass/common/common_behav.py:383: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(f"No video data interface found in {nwb_file_name}\n")
+[10:47:32][WARNING] Spyglass: No video data interface found in w000001_.nwb.lindi.json
+
+/home/magland/src/spyglass-fork/src/spyglass/common/common_behav.py:383: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(f"No video data interface found in {nwb_file_name}\n")
+[10:47:32][WARNING] Spyglass: No video data interface found in w000001_.nwb.lindi.json
+
+/home/magland/src/spyglass-fork/src/spyglass/common/common_behav.py:383: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(f"No video data interface found in {nwb_file_name}\n")
+[10:47:32][WARNING] Spyglass: No video data interface found in w000001_.nwb.lindi.json
+
+/home/magland/src/spyglass-fork/src/spyglass/common/common_behav.py:383: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(f"No video data interface found in {nwb_file_name}\n")
+[10:47:33][WARNING] Spyglass: No video data interface found in w000001_.nwb.lindi.json
+
+[10:47:33][INFO] Spyglass: Populating PositionSource...
+[10:47:33][INFO] Spyglass: Estimated sampling rate for bernard_02: 30.0 Hz
+[10:47:33][INFO] Spyglass: Estimated sampling rate for bernard_02: 30.0 Hz
+[10:47:33][INFO] Spyglass: Estimated sampling rate for bernard_02: 30.0 Hz
+[10:47:33][INFO] Spyglass: Estimated sampling rate for bernard_02: 30.0 Hz
+[10:47:33][INFO] Spyglass: Estimated sampling rate for bernard_02: 30.0 Hz
+[10:47:34][INFO] Spyglass: Populated PosIntervalMap for w000001_.nwb.lindi.json, 01_s1
+[10:47:38][INFO] Spyglass: Populated PosIntervalMap for w000001_.nwb.lindi.json, 02_r1
+[10:47:39][INFO] Spyglass: Populated PosIntervalMap for w000001_.nwb.lindi.json, 03_s2
+[10:47:42][INFO] Spyglass: Populated PosIntervalMap for w000001_.nwb.lindi.json, 04_r2
+[10:47:43][INFO] Spyglass: Populated PosIntervalMap for w000001_.nwb.lindi.json, 05_s3
+[10:47:43][INFO] Spyglass: Populating RawPosition...
+[10:47:49][INFO] Spyglass: Populating ImportedSpikeSorting...
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'hdmf-common' version 1.5.1 because version 1.8.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'core' version 2.4.0 because version 2.7.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/hdmf-fork/src/hdmf/utils.py:668: UserWarning: Ignoring cached namespace 'hdmf-experimental' version 0.2.0 because version 0.5.0 is already loaded.
+  return func(args[0], **pargs)
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_0' has data shape (56374, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_1' has data shape (79658, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_2' has data shape (58386, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_3' has data shape (43919, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/pynwb/src/pynwb/behavior.py:46: UserWarning: SpatialSeries 'series_4' has data shape (54739, 8) which is not compliant with NWB 2.5 and greater. The second dimension should have length <= 3 to represent at most x, y, z.
+  warnings.warn("SpatialSeries '%s' has data shape %s which is not compliant with NWB 2.5 and greater. "
+/home/magland/src/spyglass-fork/src/spyglass/spikesorting/imported.py:44: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn("No units found in NWB file")
+[10:47:51][WARNING] Spyglass: No units found in NWB file
